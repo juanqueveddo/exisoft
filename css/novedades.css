@@ -100,8 +100,8 @@
 }
 
 .background-home {
-    height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/backgrounds/background-home.png");
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/background-novedades.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -113,128 +113,17 @@
 }
 
 .title-home h1 {
-    transform: translateY(13rem);
+    transform: translateY(5rem);
     position: relative;
     margin-left: 25rem;
 }
 
-.bgc-main {
-    background-color: #E5E5E5;
-}
-
-.p1-home {
+.novedades-title {
+    color: #484848;
     font-size: 30px;
-    margin-left: 25rem;
-    margin-right: 25rem;
-    padding-top: 8rem;
-    margin-bottom: 8rem;
-}
-
-.servicios-home {
-    background-color: #EB7221;
-}
-
-.title-servicios-home {
-    font-weight: 700;
-    color: #fff;
-    font-size: 42px;
-    padding-top: 4rem;
-    margin-left: 25rem;
-}
-
-.p-servicios-home {
-    font-size: 30px;
-    margin-left: 25rem;
-    margin-right: 25rem;
-    margin-top: 4rem;
-    margin-bottom: 8rem;
-    color: #fff;
-}
-
-.servicios-cards {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-}
-
-.card {
-    background: #fff;
-    padding: 4rem;
-    font-size: 32px;
-    text-align: center;
-    border-radius: 30px;
-    color: #424243;
-    margin-bottom: 10rem;
-}
-
-.card-title-padding {
-    padding-bottom: 2rem;
-}
-
-.card-img {
-    margin-bottom: 3rem;
-}
-
-.card-img2 {
-    margin-bottom: 4rem;
-}
-
-.a-card {
-    text-decoration: none;
-    font-size: 18px;
-    color: #fff;
-    background: #0056D5;
-    padding: 0.7rem 2rem 0.7rem 2rem;
-    border-radius: 20px;
-    font-weight: 700;
-}
-
-.casos-home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/backgrounds/sancor.png");
-    height: 50vh;
-}
-
-.title-casos {
-    font-weight: 700;
-    font-size: 32px;
-    margin-left: 25rem;
-    margin-right: 25rem;
-    padding-top: 4rem;
-    margin-bottom: 2rem;
-    color: #fff;
-}
-
-.text-casos {
-    color: #fff;
-    font-size: 25px;
-    margin-left: 25rem;
-    margin-right: 50rem;
-    margin-bottom: 1.5rem;
-}
-
-.author-casos {
-    color: #dfdfdf;
-    font-size: 12px;
-    margin-left: 25rem;
-    margin-bottom: 5rem;
-}
-
-.button-casos {
-    text-decoration: none;
-    font-size: 13px;
-    color: #fff;
-    background: #0056D5;
-    padding: 0.7rem 2rem 0.7rem 2rem;
-    border-radius: 20px;
-    font-weight: 700;
-    margin-left: 25rem;
-}
-
-.title-novedades {
-    color: #EB7221;
-    font-weight: 700;
-    font-size: 42px;
-    margin-left: 25rem;
+    font-weight: 400;
+    width: 60vw;
+    margin-left: 20vw;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
@@ -248,7 +137,7 @@
 .card-nov {
     height: 28rem;
     width: 17.6rem;
-    background-color: #fff;
+    background-color: #e5e5e5;
     margin-bottom: 5rem;
     border-radius: 5px;
     box-shadow: 0 3px 5px #999;
@@ -273,36 +162,6 @@
     padding-left: 1rem;
     padding-top: 1rem;
     padding-right: 1rem;
-}
-
-.notas-nov {
-    display: flex;
-    justify-content: center;
-}
-
-.button-novedades {
-    text-decoration: none;
-    font-size: 16px;
-    color: #fff;
-    background: #0056D5;
-    padding: 0.7rem 2rem 0.7rem 2rem;
-    border-radius: 20px;
-    font-weight: 700;
-    margin-bottom: 5rem;
-}
-
-.marcas-title {
-    color: #909090;
-    font-weight: 400;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 5rem;
-}
-
-.marcas-home {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 4rem;
 }
 
 .bgc-footer {
