@@ -24,3 +24,35 @@ cerrar.addEventListener("click", () => {
     nombre2.classList.remove("z-index");
     nombre3.classList.remove("z-index");
 })
+
+document.addEventListener('DOMContentLoaded', function () {
+    const inputFile = document.getElementById('archivoInput');
+    const sumateArchivoBtn = document.getElementById('sumateArchivoBtn');
+    const sumateForm = document.getElementById('sumateForm');
+    const nombreArchivoP = document.getElementById('nombreArchivo');
+
+    sumateArchivoBtn.addEventListener('click', function () {
+        inputFile.click();
+    });
+
+    inputFile.addEventListener('change', function () {
+        if (inputFile.value) {
+            nombreArchivoP.textContent = `Archivo seleccionado: ${inputFile.value.split('\\').pop()}`;
+        } else {
+            nombreArchivoP.textContent = '';
+        }
+    });
+
+    sumateForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    });
+});
+
+document.getElementById("pampa").addEventListener("click", function () {
+    window.open("./casos/pampa.html", '_blank');
+});
+
+document.getElementById("sancor").addEventListener("click", function () {
+    window.open("./casos/sancor.html", '_blank');
+});
